@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="noticeinput.css">
+  <title>Document</title>
+</head>
+
+
+<body>
+  <div class="class2">
+
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class III </button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+        <!-- <p>Lorem ipsum...</p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus illo distinctio commodi cum nam, corrupti sint sit quis aspernatur neque quia illum aliquam tempore a voluptatibus laboriosam eligendi autem. Cupiditate architecto, eos praesentium nulla ullam impedit? Vel magnam, dolorem voluptatibus autem maxime placeat, nesciunt esse corporis accusamus illo qui. -->
+      </div>
+    </div>
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class I</button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+    </div>
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class II</button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+    </div>
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class II</button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+    </div>
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class II</button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+    </div>
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class II</button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+    </div>
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class II</button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+    </div>
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class II</button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+    </div>
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class II</button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+    </div>
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class II</button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+    </div>
+    <div class="boxnotice">
+      <button type="button" class="collapsible">For class II</button>
+      <div class="content">
+        <embed src="JOYIN CCCC.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+    </div>
+
+
+  </div>
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    } 
+  </script>
+</body>
+
+</html>
