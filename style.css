@@ -555,7 +555,7 @@ iframe{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid rgb(0, 0, 0);
+    /* border: 3px solid rgb(0, 0, 0); */
 }
 /* start */
 .vid{
@@ -1083,8 +1083,8 @@ footer {
     }
     .welcome {
         padding-top: 40px;
-        text-align: left;
-        width: 90%;
+        text-align: center;
+        width: 100%;
         margin: auto;
     }
     .welcome ul {
