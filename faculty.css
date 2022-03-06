@@ -834,6 +834,14 @@ footer {
         border-radius: 10px;
         /* width: 100%; */
     }
+
+    .details02 {
+        height: auto;
+        width: 100%;
+        padding-left: 0px;
+        border-radius: 10px;
+        /* width: 100%; */
+    }
     .cont {
         padding: 10px;
     }
@@ -842,6 +850,9 @@ footer {
         margin-top: 20px;
     }
     .images01 {
+        margin-top: 20px;
+    }
+    .images02 {
         margin-top: 20px;
     }
     .socialmedialinkfooter {
