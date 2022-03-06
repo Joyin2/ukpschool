@@ -308,7 +308,7 @@ body {
 }
 
 .parallax {
-    background: rgba(0, 0, 0, 0) url('backgroundfixed.jpg') repeat fixed 100%;
+    background: rgba(0, 0, 0, 0) url('backgroundfixed.jpeg') repeat fixed 100%;
     background-size: cover;
     background-blend-mode: darken;
     width: 100%;
@@ -1029,7 +1029,7 @@ body {
 }
 
 .parallax {
-    background: rgba(0, 0, 0, 0) url('backgroundfixed.jpg') repeat fixed 100%;
+    background: rgba(0, 0, 0, 0) url('backgroundfixed.jpeg') repeat fixed 100%;
     background-size: cover;
     background-blend-mode: darken;
     width: 100%;

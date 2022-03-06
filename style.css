@@ -320,7 +320,7 @@ body {
 .parallax-inner {
     /* padding-top: 30%; */
     /* padding-bottom: 30%; */
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .parallax-inner p {
@@ -407,8 +407,8 @@ body {
     margin: auto;
     padding-top: 20px;
     color: white;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px; */
 }
 
 .advertise {
@@ -1037,12 +1037,13 @@ footer {
         /* margin-left: 200px; */
         /* margin-right: 200px; */
         margin-top: 0px;
-        width: 80%;
+        width: 100%;
         height: 300px;
     }
     .parallax-inner p {
         display: block;
-        color: white;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.877);
     }
     .first-half {
         /* max-width: 100vw;
