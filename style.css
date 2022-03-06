@@ -308,7 +308,7 @@ body {
 }
 
 .parallax {
-    background: rgba(0, 0, 0, 0) url('backgroundfixed.jpg') repeat fixed 100%;
+    background: rgba(0, 0, 0, 0) url('backgroundfixed.jpeg') repeat fixed 100%;
     background-size: cover;
     background-blend-mode: darken;
     width: 100%;
@@ -355,10 +355,10 @@ body {
     background-image: url('stuinstage.JPG');
     background-position: center;
     background-size: cover;
-    box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.329);
-    animation: slider 30s infinite linear;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    /* box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.329); */
+    animation: slider 25s infinite;
+    /* border-top-left-radius: 15px; */
+    /* border-top-right-radius: 15px; */
     /* border: 2px solid black; */
 }
 
@@ -374,26 +374,26 @@ body {
     cursor: default;
 }
 
-.slides:hover {
-    box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.89);
-    transition: all 0.003s ease-in-out;
-}
+/* .slides:hover { */
+    /* box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.89); */
+    /* transition: all 0.003s ease-in-out; */
+/* } */
 
 @keyframes slider {
     0% {
-        background-image: url('girlwithmla.JPG');
+        background-image: url('girlwithmla.jpg');
     }
     20% {
-        background-image: url('boymla.JPG');
+        background-image: url('boymla.jpg');
     }
     40% {
-        background-image: url('WhatsApp\ Image\ playing\ football02.jpeg');
+        background-image: url('WhatsApp Image playing football02.jpeg');
     }
     60% {
-        background-image: url('WhatsApp\ Image\ result05.jpeg');
+        background-image: url('WhatsApp Image result05.jpeg');
     }
     80% {
-        background-image: url('WhatsApp\ Image\ with\ teacher07.jpeg');
+        background-image: url('WhatsApp Image with teacher07.jpeg');
     }
 }
 
